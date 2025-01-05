@@ -1,12 +1,12 @@
-🎥 **Popcorn Picks**
+🎥 <h1> **Popcorn Picks** </h1>
 
 Popcorn Picks is a movie recommendation program designed to help you and your friends find movies that match your shared preferences. Whether you’re into drama, horror, comedy, or action, Popcorn Picks ensures you can discover the perfect movie for your next watch party! This project was a collabortive effort between three team members, Eric Wang, Tristan Ratchev, and Abhinav Yarragunta
 
 
 
-🚀 **Features**
+🚀 <h1> **Features** </h1>
 
-Graph Implementation:
+<h2> Graph Implementation: </h2> 
 
   -Tripartite Movie Storage: Interconnected User, Genre, and Movie nodes.
   
@@ -16,7 +16,7 @@ Graph Implementation:
 
 
 
-Hash Table Implementation
+<h2> Hash Table Implementation</h2> 
 
   -Efficient Storage: Fast lookups and genre-based movie retrieval.
   
@@ -25,11 +25,11 @@ Hash Table Implementation
   -Personalized Recommendations: Based on shared preferences across all users.
   
 
-💻 **Front-End Features**
+💻 <h1> **Front-End Features** </h1>
 
 The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScript. It provides an interactive way for users to input their preferences and get recommendations.
 
-Key Buttons and Their Functions
+<h2> Key Buttons and Their Functions </h2> 
 
   -Add User: Enter a username to create a user profile.
   
@@ -42,7 +42,7 @@ Key Buttons and Their Functions
   -Get Graph Recommendations: Generate movie recommendations using the Graph implementation.
 
 
-User Flow
+<h2> User Flow </h2> 
 
   -Create a User: Enter a username and press Add User.
   
@@ -55,22 +55,22 @@ User Flow
   -Get Recommendations: Once all users are added, use the Hash or Graph recommendation button to generate a list of movies based on shared genres.
 
   
-🛠️ **Libraries Used**
+🛠️ <h1> **Libraries Used** </h1>
 
-cpp-httplib-master:
+<h2> cpp-httplib-master: </h2> 
 
 A lightweight HTTP server/client library used to handle communication between the front-end and back-end.
 
-jsoncpp:
+<h2> jsoncpp: </h2> 
 
 Enables easy parsing and generation of JSON data to transfer movie and genre details efficiently between the server and client.
 
-Node Modules:
+<h2> Node Modules: </h2> 
 
 Used in the front-end development workflow to manage dependencies and streamline bundling
 
 
-**Graph vs. Hash Table Time Complexity:** 
+** <h1> Graph vs. Hash Table Time Complexity:** </h1>
 
 Hash Table is faster because of its insertion and search method being of constant computational complexity.
 
