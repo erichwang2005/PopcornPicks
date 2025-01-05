@@ -1,0 +1,151 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgb(74, 0, 0) ,rgb(164, 0, 0), rgb(255, 62, 62));
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent the background color from changing */
+}
+
+.container {
+    font-family: 'Brush Script MT';
+    font-size: 20px;
+    background-color: rgb(33, 31, 31);
+    background-image: linear-gradient(to bottom right, rgba(28, 25, 25, 0), rgb(59, 51, 51),  rgb(91, 77, 77));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.682);
+    max-width: 600px;
+    width: 100%;
+    color: white;
+    overflow: auto;
+    flex-direction: column;
+    height: 40vh; /* Make the container height responsive */
+}
+
+h1 {
+    align-items: center; /* Center the items vertically */
+    margin: 0; /* Remove default margin */
+    justify-content: center; /* Optionally, center horizontally */
+}
+
+
+h1, h2 {
+    text-align: center; /* Center other headings like h2 */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #151414;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd500ad;
+    background-image: linear-gradient(to bottom right, rgb(255, 153, 0), rgb(255, 205, 87),  rgb(255, 187, 0),  rgb(255, 221, 128));
+}
+
+.genresSearch
+{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 205px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.genres
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.moviesrec
+{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.recContainer
+{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 13px;
+    /*background-image: linear-gradient(to bottom right, rgba(28, 25, 25, 0), rgb(59, 51, 51),  rgb(91, 77, 77));*/
+    background-color: #ffffffad;
+    background-image: linear-gradient(to bottom right, rgb(38, 32, 32), rgb(49, 40, 40),  rgb(54, 38, 38));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.682);
+    max-width: 525px;
+    width: 100%;
+
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 20vh; /* Make the container height responsive */
+}
+
+.createUser
+{
+    position: relative;
+    left: 415px;
+    bottom: 65px;
+    width: 120px;
+}
+
+.userButton
+{
+    position: relative;
+    left: 545px;
+    bottom: 100px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.user-list
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.userContainer
+{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 13px;
+    /*background-image: linear-gradient(to bottom right, rgba(28, 25, 25, 0), rgb(59, 51, 51),  rgb(91, 77, 77));*/
+    background-color: #ffffffad;
+    background-image: linear-gradient(to bottom right, rgb(38, 32, 32), rgb(49, 40, 40),  rgb(54, 38, 38));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.682);
+    max-width: 525px;
+    width: 100%;
+
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 20vh; /* Make the container height responsive */
+}

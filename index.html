@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Popcorn Picks</h1>
+        <div id="create-user">
+            <input class="createUser" type="text" id="username" placeholder="Enter a username">
+            <button class="userButton" id="add-user">Add</button>
+        </div>
+        <h2>Users</h2>
+        <div class = userContainer id="user-section">
+            <ul class = "user-list" id="user-list"></ul>
+        </div>
+        <div id="recommendation">
+            <h2>Genres</h2>
+            <input class="genresSearch" type="text" id="genre-input" placeholder="Enter genre">
+            <button id="add-genre">Add Genre</button>
+            <ul class="genres" id="genres"></ul>
+            <button id="finish-genres">Finish Genres for Current User</button>
+            <div id="actions">
+                <button class="hashrec" id="get-hash-recommendations">Get Hash Recommendations</button>
+                <button class="graphrec" id="get-graph-recommendations">Get Graph Recommendations</button>
+            </div>
+            <div id="recommendations">
+                <h2>Recommended Movies</h2>
+                <div class="recContainer">
+                    <ul class="moviesrec" id="recommended-movies"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

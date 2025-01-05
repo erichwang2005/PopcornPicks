@@ -1,0 +1,19 @@
+{
+  "name": "dsa-project-3-main",
+  "version": "1.0.0",
+  "description": "🎥 Popcorn Picks Introduction: Are you having trouble deciding on a movie to watch with your friends or by yourself? Introducing Popcorn Picks! This program provides personalized movie recommendations based on your favorite genres. Whether you're watching solo or with friends, Popcorn Picks helps you find movies that align with your shared preferences. Simply enter your favorite genres, and Popcorn Picks will curate a list of movies that fit your needs!",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.2"
+  }
+}
