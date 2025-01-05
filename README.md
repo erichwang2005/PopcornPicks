@@ -57,15 +57,15 @@ The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScri
   
 <h1> 🛠️Libraries Used </h1>
 
-<h2> cpp-httplib-master: </h2> 
+<h3> cpp-httplib-master: </h3> 
 
 A lightweight HTTP server/client library used to handle communication between the front-end and back-end.
 
-<h2> jsoncpp: </h2> 
+<h3> jsoncpp: </h3> 
 
 Enables easy parsing and generation of JSON data to transfer movie and genre details efficiently between the server and client.
 
-<h2> Node Modules: </h2> 
+<h3> Node Modules: </h3> 
 
 Used in the front-end development workflow to manage dependencies and streamline bundling
 
