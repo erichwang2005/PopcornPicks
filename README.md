@@ -10,7 +10,7 @@ Popcorn Picks is a movie recommendation program designed to help you and your fr
 The standout feature of Popcorn Picks is its ability to provide movie recommendations tailored specifically to the genres that you and your friends enjoy watching. By collecting individual user preferences, the program identifies common genres and suggests movies that match these shared interests.
 
 
-<h3> Graph Implementation: </h3> 
+<h3> Graph Implementation </h3> 
 
   -Tripartite Movie Storage: Interconnected User, Genre, and Movie nodes.
   
