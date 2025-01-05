@@ -1,10 +1,10 @@
-🎥 Popcorn Picks
+🎥 **Popcorn Picks**
 
 Popcorn Picks is a movie recommendation program designed to help you and your friends find movies that match your shared preferences. Whether you’re into drama, horror, comedy, or action, Popcorn Picks ensures you can discover the perfect movie for your next watch party! This project was a collabortive effort between three team members, Eric Wang, Tristan Ratchev, and Abhinav Yarragunta
 
 
 
-🚀 Features
+🚀 **Features**
 
 Graph Implementation:
 
@@ -25,7 +25,7 @@ Hash Table Implementation
   -Personalized Recommendations: Based on shared preferences across all users.
   
 
-💻 Front-End Features
+💻 **Front-End Features**
 
 The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScript. It provides an interactive way for users to input their preferences and get recommendations.
 
@@ -55,7 +55,7 @@ User Flow
   -Get Recommendations: Once all users are added, use the Hash or Graph recommendation button to generate a list of movies based on shared genres.
 
   
-🛠️ Libraries Used
+🛠️ **Libraries Used**
 
 cpp-httplib-master:
 
@@ -70,7 +70,9 @@ Node Modules:
 Used in the front-end development workflow to manage dependencies and streamline bundling
 
 
-Graph vs. Hash Table Time Complexity: Hash Table is faster because of its insertion and search method being of constant computational complexity.
+**Graph vs. Hash Table Time Complexity:** 
+
+Hash Table is faster because of its insertion and search method being of constant computational complexity.
 
 This is also proven experimentally through the use of #include which allows us to track the time of each implementation. For the input using only 1 user and the genres selected being "drama" and "horror", the graph was shown to have a time of 23899531 microseconds, meanwhile the hashtable was shown to have a time of 15845764 microseconds. This shows that the hashtable was indeed faster than the graph.
 
