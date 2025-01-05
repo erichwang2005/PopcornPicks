@@ -86,6 +86,6 @@ In order to run the code in this repository, first clone the repository on to yo
 
 "g++ -std=c++14 main.cpp movie.cpp -o output -lws2_32"
 
-"program"
+"output"
 
 We hope you enjoy the program and find some new movies to watch!
