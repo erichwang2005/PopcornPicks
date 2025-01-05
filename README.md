@@ -6,6 +6,7 @@ Popcorn Picks is a movie recommendation program designed to help you and your fr
 🚀 Features
 
 Graph Implementation:
+
   -Tripartite Movie Storage: Interconnected User, Genre, and Movie nodes.
   
   -Multi-User Scale: Dynamic addition of users and efficient recommendation generation.
@@ -13,7 +14,9 @@ Graph Implementation:
   -Fast Recommendation: Optimized for computing shared genres and movies.
 
 
+
 Hash Table Implementation
+
   -Efficient Storage: Fast lookups and genre-based movie retrieval.
   
   -Dynamic Resizing: Handles large datasets of 10,000+ movies.
