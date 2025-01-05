@@ -1,4 +1,4 @@
-** <h1> 🎥 Popcorn Picks </h1> **
+<h1> 🎥 Popcorn Picks </h1>
 
 Popcorn Picks is a movie recommendation program designed to help you and your friends find movies that match your shared preferences. Whether you’re into drama, horror, comedy, or action, Popcorn Picks ensures you can discover the perfect movie for your next watch party! This project was a collabortive effort between three team members, Eric Wang, Tristan Ratchev, and Abhinav Yarragunta
 
