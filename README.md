@@ -1,10 +1,10 @@
-🎥 <h1> **Popcorn Picks** </h1>
+ <h1> 🎥 **Popcorn Picks** </h1>
 
 Popcorn Picks is a movie recommendation program designed to help you and your friends find movies that match your shared preferences. Whether you’re into drama, horror, comedy, or action, Popcorn Picks ensures you can discover the perfect movie for your next watch party! This project was a collabortive effort between three team members, Eric Wang, Tristan Ratchev, and Abhinav Yarragunta
 
 
 
-🚀 <h1> **Features** </h1>
+<h1> 🚀 **Features** </h1>
 
 <h2> Graph Implementation: </h2> 
 
@@ -25,7 +25,7 @@ Popcorn Picks is a movie recommendation program designed to help you and your fr
   -Personalized Recommendations: Based on shared preferences across all users.
   
 
-💻 <h1> **Front-End Features** </h1>
+<h1> 💻  **Front-End Features** </h1>
 
 The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScript. It provides an interactive way for users to input their preferences and get recommendations.
 
@@ -55,7 +55,7 @@ The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScri
   -Get Recommendations: Once all users are added, use the Hash or Graph recommendation button to generate a list of movies based on shared genres.
 
   
-🛠️ <h1> **Libraries Used** </h1>
+<h1> 🛠️**Libraries Used** </h1>
 
 <h2> cpp-httplib-master: </h2> 
 
