@@ -33,7 +33,7 @@ The standout feature of Popcorn Picks is its ability to provide movie recommenda
 
 The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScript. It provides an interactive way for users to input their preferences and get recommendations.
 
-<h2> Key Buttons and Their Functions </h2> 
+<h3> Key Buttons and Their Functions </h3> 
 
   -Add User: Enter a username to create a user profile.
   
