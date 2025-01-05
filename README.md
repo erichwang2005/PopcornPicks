@@ -1,12 +1,12 @@
-<h1> 🎥 Popcorn Picks </h1>
+<h2> 🎥 Popcorn Picks </h2>
 
 Popcorn Picks is a movie recommendation program designed to help you and your friends find movies that match your shared preferences. Whether you’re into drama, horror, comedy, or action, Popcorn Picks ensures you can discover the perfect movie for your next watch party! This project was a collabortive effort between three team members, Eric Wang, Tristan Ratchev, and Abhinav Yarragunta
 
 
 
-<h1> 🚀 Features </h1>
+<h2> 🚀 Features </h2>
 
-<h2> Graph Implementation: </h2> 
+<h3> Graph Implementation: </h3> 
 
   -Tripartite Movie Storage: Interconnected User, Genre, and Movie nodes.
   
@@ -16,7 +16,7 @@ Popcorn Picks is a movie recommendation program designed to help you and your fr
 
 
 
-<h2> Hash Table Implementation</h2> 
+<h3> Hash Table Implementation</h3> 
 
   -Efficient Storage: Fast lookups and genre-based movie retrieval.
   
@@ -25,7 +25,7 @@ Popcorn Picks is a movie recommendation program designed to help you and your fr
   -Personalized Recommendations: Based on shared preferences across all users.
   
 
-<h1> 💻  Front-End Features </h1>
+<h2> 💻  Front-End Features </h2>
 
 The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScript. It provides an interactive way for users to input their preferences and get recommendations.
 
@@ -42,7 +42,7 @@ The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScri
   -Get Graph Recommendations: Generate movie recommendations using the Graph implementation.
 
 
-<h2> User Flow </h2> 
+<h3> User Flow </h3> 
 
   -Create a User: Enter a username and press Add User.
   
@@ -55,22 +55,22 @@ The front-end interface of Popcorn Picks was built using HTML, CSS, and JavaScri
   -Get Recommendations: Once all users are added, use the Hash or Graph recommendation button to generate a list of movies based on shared genres.
 
   
-<h1> 🛠️Libraries Used </h1>
+<h2> 🛠️Libraries Used </h2>
 
-<h3> cpp-httplib-master: </h3> 
+<h4> cpp-httplib-master: </h4> 
 
 A lightweight HTTP server/client library used to handle communication between the front-end and back-end.
 
-<h3> jsoncpp: </h3> 
+<h4> jsoncpp: </h4> 
 
 Enables easy parsing and generation of JSON data to transfer movie and genre details efficiently between the server and client.
 
-<h3> Node Modules: </h3> 
+<h4> Node Modules: </h4> 
 
 Used in the front-end development workflow to manage dependencies and streamline bundling
 
 
- <h1> Graph vs. Hash Table Time Complexity: </h1>
+ <h2> ⏰ Graph vs. Hash Table Time Complexity: </h2>
 
 Hash Table is faster because of its insertion and search method being of constant computational complexity.
 
